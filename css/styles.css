@@ -1,0 +1,41 @@
+/* css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bar-chart, #line-chart, #pie-chart, #donut-chart {
+    margin: 80px 40px; 
+}
+
+.title {
+    font-size: 20px;
+    text-anchor: middle;
+    fill: #333;
+}
+
+.axis-label {
+    font-size: 12px;
+    fill: #555;
+}
+
+
+.line {
+    fill: none;
+    stroke-width: 3px;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.label {
+    font-size: 12px;
+    fill: #333;
+}
